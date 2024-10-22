@@ -632,6 +632,12 @@ footer {
     color: #fff;
     opacity: 1
 }
+.gpa{
+    font-size: .8em;
+}
+ul li{
+    font-style: italic;
+}
 
 #contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
     color: #fff
@@ -846,4 +852,5 @@ footer {
         padding: 5px 10px
     }
 }
+
 
