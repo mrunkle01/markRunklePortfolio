@@ -635,6 +635,12 @@ footer {
 .gpa{
     font-size: .8em;
 }
+#weatherAppImg{
+    border-radius: 15px;
+    float: left;
+
+    width: 40%;
+}
 ul li{
     font-style: italic;
 }
