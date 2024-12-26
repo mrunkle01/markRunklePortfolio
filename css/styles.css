@@ -639,7 +639,21 @@ footer {
     border-radius: 15px;
     float: left;
 
-    width: 40%;
+    width: 45%;
+
+}
+.project-image img {
+    margin: 10px 0px 15px 5px;
+}
+#YahtzeeGameImg{
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+}
+#SMPFeedImg{
+    border-radius: 10px;
+    float: left;
+    width: 30%;
 }
 ul li{
     font-style: italic;
