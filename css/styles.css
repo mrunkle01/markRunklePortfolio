@@ -523,7 +523,8 @@ footer {
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px
+    border-radius: 4px;
+    padding: 25px 100px 40px 20px;
 }
 
 .project-image {
@@ -535,7 +536,8 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
-    padding: 15px
+    margin-top: 20px;
+    padding: 15px 15px 20px 15px;
 }
 
 .project-info h3 {
@@ -548,7 +550,7 @@ footer {
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
-    font-size: 0.9em
+    font-size: 0.9em;
 }
 
 .no-image .project-info {
@@ -587,7 +589,9 @@ footer {
     background: #e4e4ea;
     list-style: none;
     cursor: default;
-    font-size: 1.2em
+    font-size: 1.2em;
+    font-style: normal;
+
 }
 
 #contact {
@@ -639,11 +643,11 @@ footer {
     border-radius: 15px;
     float: left;
 
-    width: 45%;
+    width: 40%;
 
 }
 .project-image img {
-    margin: 10px 0px 15px 5px;
+    margin: 10px 0 15px 5px;
 }
 #YahtzeeGameImg{
     border-radius: 10px;
@@ -653,11 +657,9 @@ footer {
 #SMPFeedImg{
     border-radius: 10px;
     float: left;
-    width: 30%;
+    width: 38%;
 }
-ul li{
-    font-style: italic;
-}
+
 
 #contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
     color: #fff
@@ -699,7 +701,23 @@ ul li{
 .optional-section h2 {
     color: #374054
 }
-
+#about p{
+    padding: 0 0 5px 0;
+    font-weight: bold;
+}
+.row h3 {
+    font-weight: bold;
+}
+#CompilerProject {
+    border-radius: 10px;
+    float: left;
+    width: 38%;
+}
+#MotionDetection{
+    border-radius: 3px;
+    float: left;
+    width: 38%;
+}
 .optional-section-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
@@ -733,6 +751,8 @@ ul li{
 }
 .job-desc{
     font-size: .8em;
+    font-style: normal;
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -762,7 +782,6 @@ ul li{
     #lead {
         height: auto;
         min-height: auto;
-        max-height: auto;
         padding: 100px 15px
     }
 
@@ -844,7 +863,7 @@ ul li{
     .project-info {
         position: relative;
         margin: 0;
-        padding: 30px 15px;
+        padding: 30px 25px;
         top: auto;
         transform: none
     }
